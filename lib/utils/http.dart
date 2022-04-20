@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'dart:io';
-import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/io_client.dart' as ioHttp;
 
@@ -16,15 +15,12 @@ http.Client myClient(url) {
 }
 
 doPost(String url, String body, f(http.Response response)) async {
-  //print(url);
-  //print(body);
   await myClient(url)
       .post(Uri.parse(url), headers: headers, body: body)
       .then((res) => dealResponse(response: res, f: f, url: url));
 }
 
 doGet(String url, f(http.Response response)) async {
-//  print(url);
   await myClient(url).get(Uri.parse(url), headers: headers).then((res) => dealResponse(response: res, f: f, url: url));
 }
 

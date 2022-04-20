@@ -1,9 +1,6 @@
-import 'dart:convert';
-
 import 'model.dart';
 
 class PageModel extends ModelBase {
-  // List<AccountData> account_datas = [];
   List<AccountDataLite> account_datas = [];
 
   @override

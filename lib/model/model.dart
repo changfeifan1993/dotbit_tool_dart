@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 abstract class ModelBase<T> {
   T toModel(Map data);
 
