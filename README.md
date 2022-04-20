@@ -4,12 +4,10 @@ A easy tools for dotbit.
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+This is a easy tool to get dotbit record from user address.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
-# dotbit_tool_dart
+more info you can connect me from ffchang.bit or https://ffchang.tech
+
+you can also find me on discord.
+
+discord link : https://discord.gg/4NaVquKGvv
