@@ -2,8 +2,7 @@ name: dotbit_tools
 description: A easy tools for dotbit.
 version: 0.0.1
 homepage: https://github.com/changfeifan1993/dotbit_tool_dart
-authors:
-  - changfeifan1993@gmail.com
+repository: https://github.com/changfeifan1993/dotbit_tool_dart
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
